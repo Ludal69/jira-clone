@@ -9,6 +9,7 @@
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
+    "skipLibCheck": true,
     "strictFunctionTypes": true,
     "strictBindCallApply": true,
     "strictPropertyInitialization": false,
@@ -21,6 +22,7 @@
     "moduleResolution": "node",
     "baseUrl": "src",
     "paths": {
+      "database/*": ["database/*"],
       "*": ["./*"]
     },
     "types": ["node"],
